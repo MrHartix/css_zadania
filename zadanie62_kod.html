@@ -1,0 +1,85 @@
+﻿<html>
+<head>
+    <title>ćwiczenie 62 - kod</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" type="text/css" href="css_stylesheet.css" />
+    <style>
+        textarea {
+            background-color: #ffc400;
+            font-size: 19pt;
+            border-color: black;
+            border-width: 2pt;
+            color: white;
+            border-radius: 10px;
+        }
+
+        p {
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 50px;
+            color: white;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <p>zadanie62_fili.html - kod<p>
+            <textarea rows="29" cols="130">
+            <html>
+                <head>
+                    <title>ćwiczenie 62</title>
+                    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+                    <link rel="Stylesheet" type="text/css" href="css_stylesheet.css" />
+                    <link rel="Stylesheet" type="text/css" href="zadanie62_fili.css" />
+                </head>
+                <body>
+                   <p>
+                        Część poleceń stylów nie jest interpretowana przez niektóre przeglądarki internetowe lub jest
+                        obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to
+                        możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet
+                        Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera.
+                    </p>
+                    <p lang="pl">
+                        <u>CSS</u> - <b>Kaskadowe Arkusze Stylów</b> (z ang. Cascading Style Sheets) jest to specjalny język
+                        stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów
+                        znajdujących się na stronach WWW.
+                    </p>
+                    <p lang="en">
+                        <u>CSS</u> - <b>Cascading Style Sheets</b> is a special language
+                        created for flexible management of the formatting (appearance) of elements
+                        on the website.
+                    </p>
+                    <center>Powyżej znajduje się tekst po angielsku ale jest srebrny oraz tło miało być srebrene</center>
+                    <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+                </body>
+            </html>
+            </textarea>
+            <br>
+            <br>
+        <p>zadanie62_fili.css - kod</p>
+        <textarea rows="22" cols="50">
+        p {
+            font-size: 20mm;
+            color: rgb(255, 255, 0);
+        }
+
+        p:lang(pl) {
+            font-weight: bold;
+            color: rgb(218,165,32);
+            font-size: 27mm;
+        }
+
+        p:lang(en) {
+            font-style: italic;
+            color: rgb(192,192,192);
+            font-size: 34mm;
+        }
+        
+        body {
+            background-color: silver;
+        }
+    </textarea>
+    </center>
+    <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+</body>
+</html>

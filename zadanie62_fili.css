@@ -1,0 +1,20 @@
+﻿p {
+    font-size: 20mm;
+    color: rgb(255, 255, 0);
+}
+
+p:lang(pl) {
+    font-weight: bold;
+    color: rgb(218,165,32);
+    font-size: 27mm;
+}
+
+p:lang(en) {
+    font-style: italic;
+    color: rgb(192,192,192);
+    font-size: 34mm;
+}
+
+body {
+    background-color: silver;
+}

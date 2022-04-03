@@ -1,0 +1,9 @@
+﻿div {
+    color: red;
+    font-size: 2cm;
+}
+/*
+    Bartosz Filipowicz
+    text-decoration: none; jest formatowaniem zaznaczającym że dany tekst ma w żadnym stopniu ma nie być formatowany
+    text-decoration: underline; formatowanie podkreślające dany tekst w jakim zostanie ono użyte
+*/
