@@ -1,0 +1,125 @@
+﻿<html>
+<head>
+    <title>ćwiczenie 64</title>
+    <link rel="Stylesheet" type="text/css" href="css_stylesheet.css" />
+    <link rel="shortcut icon" href="icon.ico" />
+    <style>
+        table, tr, td {
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            border: 2px solid;
+            border-collapse: collapse;
+            font-size: 25px;
+        }
+        textarea {
+            background-color: #ffc400;
+            font-size: 20pt;
+            border-color: black;
+            border-width: 2pt;
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    Zaokrąglenie narożników obszarów bloków np. DIV
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Zaokrąglenie górnego-lewego narożnika:
+            </td>
+            <td>
+                selektor { border-top-left-radius: zaokrąglenie }
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Zaokrąglenie górnego-prawego narożnika:
+            </td>
+            <td>
+                selektor { border-top-right-radius: zaokrąglenie }
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Zaokrąglenie dolnego-prawego narożnika:
+            </td>
+            <td>
+                selektor { border-bottom-right-radius: zaokrąglenie }
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Zaokrąglenie dolnego-lewego narożnika:
+            </td>
+            <td>
+                selektor { border-bottom-left-radius: zaokrąglenie }
+            </td>
+        </tr>
+    </table>
+    <font face="Arial" size="5" color="white">
+        <u>
+            Zastosowanie:
+        </u>
+        <br />
+        We wszystkich przypadkach selektorem może być dowolny znacznik, np.
+        <ul>
+            <li>
+                p – akapit
+            </li>
+            <li>
+                h1 –nagłówek
+            </li>
+            <li>
+                div –blok
+            </li>
+        </ul>
+        Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj podanie:
+        <ul>
+            <li>
+                jednej wartości - zaokrąglenie symetryczne
+            </li>
+            <li>
+                dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a druga - pionowy
+            </li>
+        </ul>
+        Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone narożniki.
+        Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów.
+        Jeśli promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.
+        <br />
+        <br />
+        <center>
+            Przykład:
+            <br />
+            <textarea rows="2" cols="30">
+border-top-right-radius: 10px;
+            </textarea>
+            <br />
+            <br />
+            <u>
+                <b>
+                    <font size="7">
+                        CENTROWANIE BLOKU DIV:
+                    </font>
+                </b>
+            </u>
+            <br />
+            W definicja CSS bloku DIV należy wpisać:
+            <br />
+            <textarea rows="3" cols="20">
+margin-left: auto;
+margin-right: auto;
+            </textarea>
+        </center>
+    </font>
+    <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+</body>
+</html>
